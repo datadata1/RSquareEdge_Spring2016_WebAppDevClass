@@ -1,0 +1,20 @@
+body{
+  /*background-color: #222222;*/
+  background-color:#305c99;
+}
+
+
+#container{
+width:50%;
+height:50%;
+}
+
+.imagesize{
+	width:400px;
+	height: 400px;
+
+}
+
+.center{
+text-align: center;
+};
