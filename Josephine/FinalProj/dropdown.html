@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title></title>
+    <meta charset="utf-8">
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script src="dd.js"></script>
+   <!--script src="main.js"></script-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+     <script type="text/javascript" defer="defer"></script>
+</head>
+
+<body>
+
+    <div id="textA">A</div>  <!--test pulling data from cloudant-->
+   
+    <form action="#" class="cascadeTest">
+
+        <table>
+            <tr>
+                <th>Classes:</th>
+                <td>
+                    <select name="orgSelect" id="org" class="orgSelect" onchange="javascript:showDetails();">
+                        <option value="0">- Select a Course -</option>
+                        <option value="1">App Development</option>
+                        <option value="2">Javascript</option>
+                        <option value="3">SQL Programming Language</option>
+                        <option value="4">Web Page Development with HTML</option>
+                        <option value="5">XML for Web Development</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>More Info:</th>
+
+                <td>
+                    <select name="terrSelect" class="terrSelect" id="terrSelect" onchange="javascript:TerritoryDetails();">
+
+                        <option value="0" class="static">- Select a Filter -</option>
+                        <option value="1" class="sub_1">App Price</option>
+                        <option value="2" class="sub_1">App Students</option>
+                        <option value="3" class="sub_2">JS Price</option>
+                        <option value="4" class="sub_2">JS Students</option>
+                        <option value="5" class="sub_3">SQL Price</option>
+                        <option value="6" class="sub_3">SQL Students</option>
+                        <option value="7" class="sub_4">Web Price</option>
+                        <option value="8" class="sub_4">Web Students</option>
+                        <option value="9" class="sub_5">XML Price</option>
+                        <option value="10" class="sub_5">XML Students</option>
+
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+            <div id="textC">Welcome! To start, please select a class to find out more information.
+                <p></p>
+            </div>
+
+            <div id="div2">test
+                <p></p>
+            </div>
+</body>
+</html>
